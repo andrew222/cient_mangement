@@ -1,0 +1,10 @@
+%nav.top-bar{role: "navigation", data: {option: "is_hover: false"}}
+  .row
+  %section.top-bar-section.small-12.large-12
+    %ul.left
+      %li.home-logo
+        = link_to root_path do
+          = fa_icon("home", class: "fa-2x")
+      = welcome_info(current_user)
+    %ul.login-signup.right
+      = header_html(current_user)

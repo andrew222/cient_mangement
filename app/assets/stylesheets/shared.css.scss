@@ -1,0 +1,14 @@
+body {
+  form {
+    button, .button {
+      padding-left: 32px;
+      padding-right: 32px;
+      margin-bottom: 0;
+    }
+  }
+  .login_form {
+    .password-forgotten-block {
+      float: right !important;
+    }
+  }
+}
